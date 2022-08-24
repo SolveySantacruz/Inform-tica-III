@@ -15,9 +15,19 @@ El repositorio CLASES, contendrá el contenido de las clases impartidas
 durante todo el curso, estará compuesto por archivos con texto y prácticas
 de código.
 
-Información importante
+Información importante: Configuración GitHub en Visual Studio Code
 
-Para sincronizar con la cuenta de GitHub, escribir en el terminal del archivo .py:
-git--version
-git config --global user.name 'SolveySantacruz'
-git config --global user.email 'ssantacruz@unal.edu.co'
+
+- Para sincronizar con la cuenta de GitHub, escribir en el terminal del archivo .py:
+
+    git--version
+    git config --global user.name 'SolveySantacruz'
+    git config --global user.email 'ssantacruz@unal.edu.co'
+
+- Seleccionar la pestaña git (los 3 nodos)
+- Inicializar repositorio (working directory), click al boton initialize_repository.
+- Llevar el repositorio al stage area: seleccionar '+'
+- Llevar el repositorio al commit area: escribir el mensaje y dar click en el boton commit.
+- Subir el repositorio a la nube, click en el icono de la nube. 
+
+
