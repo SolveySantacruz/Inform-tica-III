@@ -14,3 +14,10 @@ CLASES.
 El repositorio CLASES, contendrá el contenido de las clases impartidas 
 durante todo el curso, estará compuesto por archivos con texto y prácticas
 de código.
+
+Información importante
+
+Para sincronizar con la cuenta de GitHub, escribir en el terminal del archivo .py:
+git--version
+git config --global user.name 'SolveySantacruz'
+git config --global user.email 'ssantacruz@unal.edu.co'
