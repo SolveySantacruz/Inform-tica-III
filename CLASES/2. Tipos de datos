@@ -1,0 +1,25 @@
+26 de agosto 2022
+
+Tipos de datos en Python
+
+- Booleanos: True(1 o cualquier entero), False (0)
+- Strings: 'casa', '123', '''', son cadenas
+- Enteros: -1000, 1000, 0
+- Flotantes: 12.5, -100.0
+
+* Listas: una lista se puede mutar, es decir cambiar su contenido.
+
+[], [1,2,3],['A','B','C'],[1,'A',2,'B',3,'C'] 
+
+* Tuplas: es inmutable.
+
+ (), (1,2,3),('A','B','C'),(1,'A',2,'B',3,'C') 
+
+* Conjuntos: En los conjuntos no se pueden repetir datos 
+
+Incorrecto : {'A','B','C','A'}      Correcto : {'A','B','C'}
+
+* Diccionarios: 
+
+{'Cristian':4, 'Solvey':5}
+

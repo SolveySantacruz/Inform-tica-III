@@ -1,0 +1,29 @@
+26 de agosto 2022
+
+Booleanos:
+
+Suma +
+AND
+OR
+
+Enteros y flotantes: 
+
+Suma +
+Resta -
+Divisón /
+División entera //
+Residuo %
+Multiplicación *
+Potencia **
+Menor que <
+Mayor que >
+Igual que ==
+Mayor o igual que >=
+Menor o igual que <=
+Diferente !=
+
+String:
+
+Concatenación o unión +
+Indexado  string[indice] (extraer el elemento que está en una posición)
+
