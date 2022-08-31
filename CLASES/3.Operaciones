@@ -1,4 +1,4 @@
-26 de agosto 2022
+___26 de agosto 2022___
 
 Booleanos:
 
@@ -26,4 +26,30 @@ String:
 
 Concatenación o unión +
 Indexado  string[indice] (extraer el elemento que está en una posición)
+
+
+___31 de agosto 2022___
+
+
+Tipos de operadores
+
+Operador de asignación (=)
+Operadores aritméticos (+,-,*,/,//,%,**)
+Operadores lógicos (not, and, or)
+Operadores de comparación (<,>,<=,>=,!=,==)
+Operadores de pertenencia (in, not in)
+Operadores de conjuntos (|,&,-)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
