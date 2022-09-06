@@ -51,7 +51,7 @@ print(format(num1,'.1f'))
 
 # Formatear num2 a entero 
 
-# print(format(num2,'int'))
+# print(format(num2,'.1i'))
 
 
 ### Ayuda (help, dir, type)
@@ -75,6 +75,7 @@ print(type((1,)))
 entero=1 
 
 print('---- funcionalidades enteros-----')
+
 # for function in dir(entero):
 
 print(dir(entero))
@@ -130,14 +131,36 @@ print(list(range(96,5,-6)))
 print(list(range(990,899,-15)))
 
 # len(), min(), max(), sum()
+
 # Luego calcule el tamaño, máximo, mínimo y suma de los elementos de la última secuencia creada
 
 secuencia=range(990,899,-15)
+print(len(secuencia))
+print(min(secuencia))
+print(max(secuencia))
 
-# Mapear la secuencia de la siguiente manera: 
-    # Convertir los números a cadenas
-    # Transformar los números al residuo entre 5
-    # Multiplicar cada elemento por 3.1
+suma=0
+for numero in secuencia: 
+    suma=suma+numero
+print('La suma de los números de la secuencia es: ', suma)
+
+## Mapear la secuencia de la siguiente manera: 
+
+# Convertir los números a cadenas
+
+def cadenas(elemento):
+    return str(elemento)
+
+print(list(map(cadenas,secuencia)))
+
+# Transformar los números al residuo entre 5
+
+def residuo(elemento):
+    return elemento%5
+
+print(list(map(residuo,secuencia)))
+
+# Multiplicar cada elemento por 3.1
 
 def multiplicacion(elemento):
     return elemento*3.1
@@ -145,13 +168,38 @@ def multiplicacion(elemento):
 print(list(map(multiplicacion, secuencia)))
 
 # Filtrar la anterior secuencia:
-    # Retener solo los números pares
+
+# Retener solo los números pares
 
 def esPar(elemento):    #Debe devolver True o False
     return elemento%2 == 0
 
 print(list(filter(esPar,secuencia)))
-    # Retener solo los números que al sumarles 5 sean pares
-    # Retener solo los números cuyo primer dígito sea par 
 
+# Retener solo los números que al sumarles 5 sean pares
 
+def suma(elemento):
+    return elemento+5
+    
+sumas=map(suma,secuencia)
+
+def sumapar(elemento):
+    return elemento%2==0
+
+print(list(filter(sumapar,sumas)))
+
+# Retener solo los números cuyo primer dígito sea par 
+
+def cadenas(elemento):
+    return str(elemento)
+
+cadena=map(cadenas,secuencia)
+
+for palabra in cadena:
+    a=palabra
+    for letra in a:
+        num=int(letra)
+        div=num%2 
+        if div==0: 
+
+            print(num)

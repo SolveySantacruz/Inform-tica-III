@@ -45,8 +45,8 @@ print('Solvey' and 'Santacruz')
 # Desarrolle un algoritmo que imprima si un número es mayor que 18
 # sin utilizar el condicional if, utilizar operadores lógicos
 
-#a=input()
-#print('Verdadero  ', a )
+a=28
+print((a>18) and 'El número es mayor que 18' or 'El número es menor que 18')
 
 ### Operadores de comparación
 
