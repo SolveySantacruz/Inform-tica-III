@@ -1,0 +1,21 @@
+
+septiembre 07 2022
+
+Ciclo While
+
+Evalúa una condición y en caso de ser verdadera 
+ejecuta las sentencias obtenidas en el ciclo.
+
+Durante el ciclo la condición prodría cambiar a 
+falso, lo que ocasiona que el ciclo termine.
+
+NOTACIÓN:
+
+while <condición>:
+    <sentencias>
+    <sentencias>
+...
+
+Ejercicio
+
+Crear un ciclo infinito 

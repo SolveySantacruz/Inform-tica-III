@@ -1,0 +1,45 @@
+Septiembre 07 2022
+
+Condicional if
+
+Permite ejecutar un conjunto de sentencias en caso de que una condición
+sea verdadera. En caso de que la condición sea falsa, las sentencias
+contenidas, son ignoradas.
+
+NOTACIÓN
+
+if <condición>:
+    <sentencias>
+    <sentencias>
+    <sentencias>
+...
+
+Ejercicio
+
+Determinar si un número es mayor a 18, utilizando el condicional if.
+
+# Determinar si un número es mayor o menor a 18, utilizando el 
+# condicional if y else.
+
+if <condición>:
+    <sentencia>
+    <sentencia>
+else:
+    <sentencia else>
+    <sentencia else>
+
+Cuando se tienen más de dos condiciones
+
+if <condición>:
+    <sentencia>
+    <sentencia>
+elif <condición 2>
+    <sentencia elif>
+    <sentencia elif>
+elif <condición 3>
+    <sentencia elif>
+    <sentencia elif>
+else:
+    <sentencia else>
+    
+
