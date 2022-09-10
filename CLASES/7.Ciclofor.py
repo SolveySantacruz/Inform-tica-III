@@ -54,14 +54,31 @@ for i in range(3,31,3):
     print(i)
 # 3, 6, 9, 12, 15, 18, 21, 24, 27,33,36,39,42,45
 
-for i in range(3,31,3):
+for i in (3,6, 9, 12, 15, 18, 21, 24, 27,33,36,39,42,45):
     print(i)
-    if i==30:
-        break
     
-
 # Números pares del 200 al 400
+
+for i in range(200, 401, 2):
+    print(i)
 
 # Las primeras 20 potencias de 2
 
+for i in range(1,21):
+     print(2**i, end = " ")
+
+
 # Múltiplos de 5 del 10 a 50
+
+n = 7
+factores = range(2, n)
+bandera = True
+
+for factor in factores:
+        if (n%factor)==0:
+            print(n, "No es primo", end='\n\n')
+            bandera = False
+            break
+
+if bandera == True:
+    print(n, "Si es primo", end='\n\n')
