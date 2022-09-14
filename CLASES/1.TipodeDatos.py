@@ -74,7 +74,11 @@ print('S a F --> ',String2, float(String2)) # Se pueden hacer operaciones en el 
 
 # Un booleano a un entero y a un flotante
 
+print(int(Boolenao==True))
+print(float(Boolenao==True))
 
 # Un entero y flotante a booleano
 
+print(bool(Entero))
+print(bool(Flotante))
 

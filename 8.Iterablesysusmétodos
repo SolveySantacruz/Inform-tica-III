@@ -1,0 +1,19 @@
+
+septiembre 14 del 2022
+
+ITERABLES Y MÉTODOS
+
+Se tienen tres clases y se verán los métodos de cada una de ellas:
+(str, list, dict)
+
+El objeto original no se ve afectado por los métodos. Los métodos retornan un
+nuevo objeto sin alterar el original.
+
+Las cadenas son inmutables, es decir que no se pueden cambiar. 
+
+### Métodos de indexación y slicing 
+
+
+Indexación: es un método para acceder a los elementos de las cadenas (índices).
+Slicing: es un método para acceder a las rebanadas de las cadenas. 
+
