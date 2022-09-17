@@ -203,3 +203,7 @@ for palabra in cadena:
         if div==0: 
 
             print(num)
+
+
+secuencia=range(990,899,-15)
+print(type(secuencia))
