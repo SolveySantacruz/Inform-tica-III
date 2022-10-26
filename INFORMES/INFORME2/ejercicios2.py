@@ -98,7 +98,6 @@ ventasPorProducto=dict(zip(claves,dinero))
 ventasTotal=sum(dinero)
 
 reporteVentas = [unidadesPorProducto, ventasPorProducto, ventasTotal]
-print(reporteVentas)
 
 #-------EJERCICIO 2---------
 
@@ -222,7 +221,7 @@ for i in promediosPorEstudiante:
         estudiantesReprobados.append(i)
 
 reporteEstudiantes = [promediosPorEstudiante, promediosPorMateria, estudiantesAprobados, estudiantesReprobados]
-print(reporteEstudiantes)
+
 
 #-------EJERCICIO 3---------
 
