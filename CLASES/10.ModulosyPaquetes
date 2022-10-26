@@ -1,0 +1,20 @@
+26 de octubre 2022
+
+------Módulos integrados de Python---------
+
+Los módulos que acabamos de ver son módulos creados por el mismo
+programador. Sin embargo, existen infinidad de módulos pre instalados que 
+se pueden usar ahprrando cantidad de trabajo.
+
+- random: generar números aleatorios, con sus respectivas distribuciones
+        estadísticas.
+- math: provee funciones matemáticas y constantes numéricas (pi,euler).
+- tqdm: herramienta para que el programador evalúe el tiempo de ejecución
+        de un programa.
+- pandas: librería para hacer hojas de cálculo semejantes a Excel.
+- skitlearn: librería para hacer machine learning.
+- matplotlib: librería para graficar datos, basado en Matlab. 
+- numpy: es una librería para utilizar estructuras de datos potentes.
+- os: para acceder al terminal.
+- sys: para saber donde están contenidas todas las funciones, paquetes
+        integrados de Python. 
