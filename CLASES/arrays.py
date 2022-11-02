@@ -270,4 +270,4 @@ print('Cantidad por trabajador',dataArray.sum(axis=1))
 Ejemplo: Como guardar un arreglo 
 """
 
-savetxt('ventasTrabajadores.cvs',dataArray)
+savetxt('CLASES/ventasTrabajadores.cvs',dataArray)
