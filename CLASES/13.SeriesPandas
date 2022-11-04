@@ -1,0 +1,46 @@
+
+04 de noviembre 2022
+
+-------------Serie--------------
+
+Es una estructura unidimensional eficiente. Se construye sobre un arreglo numpy.
+Está compuestpo por índices numéricos => 0,1,2,3...
+                    índices claves => 'Enero','Febrero',...
+
+Además se pueden indexar, opcionalmente utilizando ya sea índies numéricos
+o índices claves
+
+-------- ¿Cómo crear una serie?--------------
+
+import pandas as pandas
+
+serie= pd.series(data=<arregloNumpy, index=[....])
+serie= pd.series(data= np.array([5,4,3.5]),index=['Est1','Est2','Est3'])
+
+----------Herramientas de una serie-----------
+
+ATRIBUTOS
+
+serie.index: retorna los índices clave
+serie.values: retorna la data
+serie.shape: retorna el tamaño
+
+MÉTODOS
+
+serie.describe(): devuelve una serie describiendo la serie original.
+serie.mean(): devuelve la media.
+serie.std(): devuelve la desviación estándar.
+serie.min(): devuelve el valor mínimo.
+serie.max(): devuelve el valor máximo.
+serie.idxmin(): devuelve la clave del mínimo.
+serie.idxmax(): devuelve las frecuencias de la serie.
+
+INDEXADO
+
+Las series se pueden indexar utilizando el índice numérico 
+
+
+
+
+
+
